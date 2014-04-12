@@ -20,7 +20,7 @@ To clean (*.yy.c, c2html, *.html): make clean
 
 ------------------------------------------------------------------------ 
 The color scheme I followed: (Note same as handout c2html.pdf)
-comments 			light green, regular type //todo
+comments 			light green, regular type
 
 white space 			white space
 
