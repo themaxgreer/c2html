@@ -1,0 +1,9 @@
+#flex output files
+*.yy.c
+
+#pdf
+/c2html.pdf
+
+#generated file
+/c2html
+

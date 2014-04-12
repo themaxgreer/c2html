@@ -1,0 +1,46 @@
+Name: Max Greer
+Email: themaxgreer@gmail.com
+List of files:		
+			c2html.l
+			README
+			makefile
+			c2html.pdf
+			c2html
+			/Examples (with .c files)
+Description:
+C to HTML with lexical analyzer
+
+Usage: ./c2html source.c > source.html
+
+Dependencies: flex (lexical analyzer)
+
+To create c2html (after make clean): make
+To clean (*.yy.c, c2html, *.html): make clean
+
+
+------------------------------------------------------------------------ 
+The color scheme I followed: (Note same as handout c2html.pdf)
+comments 			light green, regular type //todo
+
+white space 			white space
+
+newlines 			start new line, add black line number, regular type
+
+keywords 			blue, bold type
+
+identifers 			blue, regular type
+
+character constants 		light red, italic type
+
+string literals 		light red, italic, underline type
+
+operators 			black, regular type
+directives 			black, regular type
+
+integer constants 		cyan, italic type
+floating point constants 	cyan, italic type
+
+invalid lexemes 		red, blinking type
+
+-------------------------------------------------------------------------
+
